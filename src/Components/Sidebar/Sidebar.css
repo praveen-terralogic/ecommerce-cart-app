@@ -1,0 +1,21 @@
+#sidebar {
+  padding: 1rem;
+}
+#sidebar h3 {
+  font-size: 14px;
+}
+.sidebar-categories {
+  padding: 0px;
+}
+.sidebar-categories li {
+  list-style: none;
+  padding: 0.3em 2em;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.sidebar-categories li:hover {
+  background-color: #eee;
+}
+.sidebar-categories li label {
+  cursor: pointer;
+}

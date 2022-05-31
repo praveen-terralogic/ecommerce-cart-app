@@ -1,0 +1,45 @@
+.cart-product {
+    border: 1px solid #eef0f2;
+    border-radius: 4px;
+    transition: 0.3s;
+    padding: 1rem;
+}
+
+.cart-product-img {
+    max-height: 150px;
+}
+
+.cart-product-detail h2 {
+    color: #24292e;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cart-product-quantity {
+    position: relative;
+    max-width: 105px;
+}
+
+.cart-product-quantity label {
+    position: absolute;
+    left: 25px;
+    top: 50px;
+    font-size: 1.25rem;
+    color: #24292e;
+}
+
+.cart-product-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-product-remove {
+    border: none;
+    outline: none;
+    align-self: center;
+    background-color: transparent;
+}
+.cart-product .voucher-option{
+    max-width: 200px;
+}

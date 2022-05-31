@@ -1,0 +1,70 @@
+.voucher-col {
+  margin-bottom: 1rem;
+}
+.voucher-card {
+  border: 1px solid #eef0f2;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.voucher-card:hover {
+  box-shadow: 0 3px 6px hsla(0, 0%, 39.2%, 0.1607843137254902);
+}
+.voucher-card-image img {
+  height: 150px;
+  object-fit: cover;
+  padding: 1em 0;
+}
+.voucher-card-content {
+  padding: 1rem;
+}
+.voucher-card-content h2 {
+  color: #24292e;
+  font-size: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0.75rem;
+}
+.voucher-option {
+  display: flex;
+  justify-content: space-between;
+}
+.voucher-option-price {
+  position: relative;
+  width: calc(100% - 75px);
+}
+.voucher-option-quantity {
+  position: relative;
+  width: 65px;
+}
+.voucher-option-price label,
+.voucher-option-quantity label {
+  position: absolute;
+  color: #24292e;
+  left: 15px;
+  top: 8px;
+  font-size: 16px;
+}
+.voucher-price {
+  padding-left: 45px;
+}
+.btn-cta-cart {
+  border: 1px solid #333;
+  color: #24292e !important;
+  display: block;
+  width: 100%;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  padding: 0.5rem 1rem !important;
+}
+.btn-cta-cart:hover,
+.btn-cta-cart:active,
+.btn-cta-cart:focus,
+.voucher-card:hover .btn-cta-cart,
+.btn-cta-cart-active {
+  border: 1px solid #c7417b !important;
+  background-color: #c7417b !important;
+  color: #fff !important;
+}
+

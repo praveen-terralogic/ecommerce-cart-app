@@ -1,0 +1,55 @@
+.voucherpage .sort-bar {
+  border: none;
+}
+.voucher-wrapper {
+  min-height: calc(100vh - 160px);
+  align-items: center;
+  display: flex;
+}
+.voucher-wrapper-inner {
+  width: 100%;
+}
+.voucher-wrapper-image img {
+  max-height: 50vh;
+  mix-blend-mode: multiply;
+  border-radius: 10px;
+}
+.voucher-wrapper-content h1 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #24292e;
+  max-width: 550px;
+}
+.voucher-wrapper-content h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6a737d;
+}
+.voucher-wrapper-option-price,
+.voucher-wrapper-option-quantity {
+  position: relative;
+}
+.voucher-wrapper-option-price label,
+.voucher-wrapper-option-quantity label {
+  position: absolute;
+  left: 25px;
+  top: 50px;
+  font-size: 1.25rem;
+  color: #24292e;
+}
+.voucher-wrapper-price {
+  padding-left: 100px;
+}
+.voucher-wrapper-image-background {
+  position: absolute;
+  top: -25%;
+  right: -12px;
+  z-index: -1;
+}
+.voucher-wrapper-image-background {
+  overflow: hidden;
+}

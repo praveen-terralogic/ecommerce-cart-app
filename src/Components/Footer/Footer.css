@@ -1,0 +1,20 @@
+footer{
+    background-color: #f6f8fa;
+    color: #24292e;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav{
+    padding: 0px;
+    display: flex;
+}
+.footer-nav li{
+    list-style: none;
+    margin-right: 1em;
+}
+.footer-nav li a{
+    color: #24292e;
+    text-decoration: none;
+    padding: 0 5px;
+}

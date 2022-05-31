@@ -1,0 +1,7 @@
+.homepage {
+  min-height: 100vh;
+}
+.sidebar-wrapper {
+  border-top: 1px solid #eef0f2;
+  border-right: 1px solid #eef0f2;
+}
